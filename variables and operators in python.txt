@@ -1,0 +1,81 @@
+Single variable:
+1. Integer: x=5,6
+2. Float: decimal value , x=2.5
+3. Boolean: x=true or false 
+4. Complex: x=3+4j
+5. String: x='hi'
+
+Multi variable:
+1. List: x=['apple', 'mango', 'banana']
+2. Tuple: x=('apple', 'mango', 'banana')
+3. Set: x={'apple', 'mango', 'banana'}
+4. Dictionary: x={'name=mona', 'age=20'}
+
+Operators:
+
+1. Arithmetic operators: 
+  x=5
+  y=2
+  a) Addition (+): print(x + y) ; result = 7
+  b) Subtraction (-): print(x -y) ; result = 3 
+  c) Multiplication (*): print(x * y) ; result = 10
+  d) Division (/): print(x / y) ; result =2.5 
+  e) Floor Division: print(x // y); result=2 (5/2=2.5;5//2=2;largest whole no)           
+  f) Modulus (%): print(x % y) ; result = 1 (remainder of division)
+  g) Exponentiation (**):  print(x ** y) ; result = 25
+
+2. Assignment operators:
+   x=4
+   Assignment(=)
+  a) Addition Assignment(+=):        x += 3    print(x)     result: 7
+  b) Subtraction Assignment(-=):     x -= 3    print(x)	    result: 1
+  c) Multiplication Assignment(*=):  x *= 3    print(x)	    result:12 
+  d) Division Assignment(/=):	     x /= 3    print(x)	    result: 1.33 	
+  e) Modulus Assignment(%=):         x %= 3    print(x)	    result: 1
+  f) Floor Division Assignment(//=): x //= 3   print(x)	    result: 1
+  g) Exponentiation Assignment(**=): x **= 3   print(x)	    result: 64
+
+3. Comparison operators:
+  x=5
+  y=3
+  a) Equal(==):	                   print(x == y)  result: False	
+  b) Not equal(!=):	           print(x != y)  result: True	
+  c) Greater than(>):	           print(x > y)   result: True	
+  d) Less than(<):	           print(x < y)   result: False
+  e) Greater than or equal to(>=): print(x >= y)  result: True	
+  f) Less than or equal to(<=):    print(x <= y   result: False
+
+4. Logical operators:
+   x = 5
+   and: print(x>0 and x<10)       result: True
+   or:  print(x<5 or x>10)        result: False 
+   not: print(not(x>3 and x<10))  result: False
+
+5. Identity operators:
+   x= ["apple", "banana"]
+   y= ["apple", "banana"]
+   z= x
+   print(x is z)      result: True
+   print(x is y)      result: False
+   print(x == y)      result: True
+   print(x is not z)  result: False
+   print(x is not y)  result: True
+   print(x != y)      result: False
+
+6. Membership operators:
+   fruits = ["apple", "banana", "mango"]
+   in:     print("banana" in fruits)  result: True
+           print("orange" in fruits)  result: False
+   not in: print("orange" not in fruits)  result: True
+           print("apple" not in fruits)   result: False
+
+7. Bitwise operators:
+    8 4 2 0
+   x = 6 (0 1 1 0)
+   y = 3 (0 0 1 1)
+   AND(&):          print(x & y)  result: 2 (0 0 1 0)
+   OR (|):          print(x | y)  result: 7 (0 1 1 1)
+   XOR(^):          print(x ^ y)  result: 5 (0 1 0 1)
+   NOT(~):          print(~y)     result: -4 (1 0 0)
+   Left shift(<<):  print(x<<1)   result: 12 (1 1 0 0)
+   Right shift(>>): print(x>>1)   result: 3 (0 0 1 1)
