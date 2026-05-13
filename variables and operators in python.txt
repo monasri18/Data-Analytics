@@ -6,9 +6,9 @@ Single variable:
 5. String: x='hi'
 
 Multi variable:
-1. List: x=['apple', 'mango', 'banana']
-2. Tuple: x=('apple', 'mango', 'banana')
-3. Set: x={'apple', 'mango', 'banana'}
+1. List:       x=['apple', 'mango', 'banana']
+2. Tuple:      x=('apple', 'mango', 'banana')
+3. Set:        x={'apple', 'mango', 'banana'}
 4. Dictionary: x={'name=mona', 'age=20'}
 
 Operators:
