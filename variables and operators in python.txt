@@ -16,13 +16,13 @@ Operators:
 1. Arithmetic operators: 
   x=5
   y=2
-  a) Addition (+): print(x + y) ; result = 7
-  b) Subtraction (-): print(x -y) ; result = 3 
-  c) Multiplication (*): print(x * y) ; result = 10
-  d) Division (/): print(x / y) ; result =2.5 
-  e) Floor Division: print(x // y); result=2 (5/2=2.5;5//2=2;largest whole no)           
-  f) Modulus (%): print(x % y) ; result = 1 (remainder of division)
-  g) Exponentiation (**):  print(x ** y) ; result = 25
+  a) Addition (+):         print(x + y)     result = 7
+  b) Subtraction (-):      print(x -y)      result = 3 
+  c) Multiplication (*):   print(x * y)     result = 10
+  d) Division (/):         print(x / y)     result =2.5 
+  e) Floor Division:       print(x // y)    result=2      (5/2=2.5;5//2=2;largest whole no)           
+  f) Modulus (%):          print(x % y)     result = 1     (remainder of division)
+  g) Exponentiation (**):  print(x ** y)    result = 25
 
 2. Assignment operators:
    x=4
@@ -30,7 +30,7 @@ Operators:
   a) Addition Assignment(+=):        x += 3    print(x)     result: 7
   b) Subtraction Assignment(-=):     x -= 3    print(x)	    result: 1
   c) Multiplication Assignment(*=):  x *= 3    print(x)	    result:12 
-  d) Division Assignment(/=):	     x /= 3    print(x)	    result: 1.33 	
+  d) Division Assignment(/=):	       x /= 3    print(x)	    result: 1.33 	
   e) Modulus Assignment(%=):         x %= 3    print(x)	    result: 1
   f) Floor Division Assignment(//=): x //= 3   print(x)	    result: 1
   g) Exponentiation Assignment(**=): x **= 3   print(x)	    result: 64
@@ -39,9 +39,9 @@ Operators:
   x=5
   y=3
   a) Equal(==):	                   print(x == y)  result: False	
-  b) Not equal(!=):	           print(x != y)  result: True	
-  c) Greater than(>):	           print(x > y)   result: True	
-  d) Less than(<):	           print(x < y)   result: False
+  b) Not equal(!=):	               print(x != y)  result: True	
+  c) Greater than(>):	             print(x > y)   result: True	
+  d) Less than(<):	               print(x < y)   result: False
   e) Greater than or equal to(>=): print(x >= y)  result: True	
   f) Less than or equal to(<=):    print(x <= y   result: False
 
@@ -64,8 +64,8 @@ Operators:
 
 6. Membership operators:
    fruits = ["apple", "banana", "mango"]
-   in:     print("banana" in fruits)  result: True
-           print("orange" in fruits)  result: False
+   in:     print("banana" in fruits)      result: True
+           print("orange" in fruits)      result: False
    not in: print("orange" not in fruits)  result: True
            print("apple" not in fruits)   result: False
 
